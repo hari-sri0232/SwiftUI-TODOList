@@ -32,7 +32,6 @@ struct ListView: View {
                 }
             }
     }
-
 }
 
 #Preview {
