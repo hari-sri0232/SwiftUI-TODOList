@@ -9,7 +9,7 @@ import SwiftUI
 
 @main
 struct TODOListApp: App {
-    
+    // TODO
     @State var viewModel: ItemViewModel = ItemViewModel()
     
     var body: some Scene {
