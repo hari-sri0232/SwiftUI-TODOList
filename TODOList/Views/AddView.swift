@@ -47,7 +47,7 @@ struct AddView: View {
     }
     
     func saveItem() {
-        if textFieldText.count > 3 {
+        if textFieldText.count > 2 {
             viewModel.add(item:
                             ItemsList(title: textFieldText,
                                       isCompleted: false))
