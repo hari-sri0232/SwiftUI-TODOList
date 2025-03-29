@@ -54,7 +54,9 @@ struct AddView: View {
             dismiss()
 
         } else {
-            showAlert.toggle()
+            withAnimation {
+                showAlert.toggle()
+            }
         }
         
     }
