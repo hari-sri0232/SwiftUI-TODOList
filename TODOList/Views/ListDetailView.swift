@@ -13,6 +13,7 @@ struct ListDetailView: View {
             Color.green.ignoresSafeArea()
             VStack {
                 Text("Detail View")
+                Text("Hello world")
             }
         }
     }
