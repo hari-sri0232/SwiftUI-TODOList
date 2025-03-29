@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ListView: View {
+    
     // Migration from @observableObject to @observable Macro
     @Environment(ItemViewModel.self) var viewModel
     
