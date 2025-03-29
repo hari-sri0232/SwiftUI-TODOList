@@ -14,7 +14,7 @@ struct ListDetailView: View {
             VStack {
                 Text("Detail View")
                 Text("Hello world")
-                Text("Implement details later")
+                Image(systemName: "house.fill")
             }
         }
     }
