@@ -1,0 +1,40 @@
+# Xcode
+# Xcode 9 and above
+.DS_Store
+.idea
+.vscode
+xcuserdata
+*.xccheckout
+*.xcworkspace
+*.xcodeproj/project.xcworkspace
+*.xcodeproj/xcuserdata
+*.xcuserstate
+*.xcworkspace/xcuserdata
+DerivedData/
+build/
+*.app
+*.app.dSYM
+*.xcscheme
+*.xcconfig
+*.swp
+
+# Swift Package Manager
+# Swift Package Manager
+/.build
+/.swiftpm/xcode
+
+# CocoaPods
+# CocoaPods
+Pods/
+
+# Carthage
+# Carthage
+Carthage/Build/
+
+# Other
+# User-specific files
+*.xcuserstate
+*.log
+
+# SPM Dependencies (Optional - If you use Swift Package Manager)
+Package.resolved
