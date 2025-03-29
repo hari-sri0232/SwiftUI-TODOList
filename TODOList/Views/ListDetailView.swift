@@ -11,6 +11,11 @@ struct ListDetailView: View {
     var body: some View {
         ZStack {
             Color.green.ignoresSafeArea()
+            VStack {
+                Text("Detail View")
+                Text("Hello world")
+                Text("Implement details later")
+            }
         }
     }
 }
